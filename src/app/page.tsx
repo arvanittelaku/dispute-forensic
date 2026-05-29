@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { createMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
 import { CTASection } from "@/components/CTASection";
@@ -15,6 +16,14 @@ import {
 import { getAllDisciplines } from "@/data/disciplines";
 import { getAllServices, getServiceNames } from "@/data/services";
 import { HOMEPAGE_SEO_LINKS } from "@/lib/seo-internal-links";
+
+export const metadata = createMetadata({
+  title:
+    "Forensic Expert Witness UK | All Four Disciplines — DisputeForensic",
+  description:
+    "Connect with forensic expert witnesses across accounting, engineering, digital forensics, and economics for UK litigation and arbitration. CPR Part 35 and IBA Rules compliant.",
+  path: "/",
+});
 
 const stats = [
   ["Core forensic disciplines", "4", "Accounting, engineering, digital, economics"],
@@ -164,6 +173,10 @@ export default function HomePage() {
           |{" "}
           <Link href="/services" className="text-accent underline">
             All services
+          </Link>{" "}
+          |{" "}
+          <Link href="/guides" className="text-accent underline">
+            Solicitor guides
           </Link>
         </p>
         <RelatedLinks links={HOMEPAGE_SEO_LINKS} title="Explore Further" />

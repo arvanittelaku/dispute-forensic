@@ -1,12 +1,19 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import type { GlossaryTerm } from "@/data/types";
 import { glossaryAnchorId } from "@/lib/glossary-slug";
 
 export function GlossarySearch({ terms }: { terms: GlossaryTerm[] }) {
+  const searchParams = useSearchParams();
   const [query, setSearch] = useState("");
+
+  useEffect(() => {
+    const q = searchParams.get("q");
+    if (q) setSearch(q);
+  }, [searchParams]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -36,6 +43,7 @@ export function GlossarySearch({ terms }: { terms: GlossaryTerm[] }) {
         </label>
         <input
           id="glossary-search"
+          name="q"
           type="search"
           placeholder="Search terms…"
           value={query}

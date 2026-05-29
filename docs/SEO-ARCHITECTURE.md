@@ -678,7 +678,7 @@ Complex disputes (construction fraud, IP theft with financial loss, investment t
 | Vercel deployment | Pending | No `vercel.json` yet |
 | DNS: disputeforensic.com → www | **Done** | `middleware.ts` — 301 apex redirect |
 | hreflang: en-GB, en-US, x-default | Partial | `src/lib/metadata.ts` — en-GB + x-default; en-US deferred until US-localized content |
-| `html lang="en-GB"` | Pending | Requires `src/app/layout.tsx` |
+| `html lang="en-GB"` | **Done** | `src/app/layout.tsx` |
 | `NEXT_PUBLIC_FORMSPREE_FORM_ID` | Ready | `.env.example` |
 | `NEXT_PUBLIC_SITE_URL` | Ready | `src/lib/site.ts` — `https://www.disputeforensic.com` |
 | `GOOGLE_SITE_VERIFICATION` | Ready | Wired in `createMetadata()` |
@@ -822,7 +822,7 @@ Existing `metaTitle` / `metaDescription` values in `src/data/disciplines.ts`, `c
 
 ## Appendix D: Implementation status
 
-Snapshot as of May 2026.
+Snapshot as of May 2026 (post-launch build).
 
 | Component | Status | Location |
 |-----------|--------|----------|
@@ -831,30 +831,31 @@ Snapshot as of May 2026.
 | Metadata helper (`createMetadata`) | **Done** | `src/lib/metadata.ts` |
 | hreflang `en-GB` + `x-default` | **Done** | `src/lib/metadata.ts` |
 | hreflang `en-US` | Deferred | Add when US-localized content exists |
+| `html lang="en-GB"` | **Done** | `src/app/layout.tsx` |
 | Search Console / Bing verification | **Ready** | Env vars → `createMetadata` |
 | Schema helpers | **Done** | `src/lib/schema.ts` |
 | JsonLd component | **Done** | `src/components/JsonLd.tsx` |
 | Content data (disciplines, case-types, guides, sectors, glossary, services, experts) | **Done** | `src/data/*.ts` |
-| Forensic disciplines pillar content | **Done** | `src/data/forensic-disciplines-pillar.ts` |
+| Forensic disciplines pillar (GEO tables) | **Done** | `src/data/forensic-disciplines-pillar.ts` |
 | Nav / footer IA | **Done** | `src/data/nav.ts` |
-| Page templates (Content, Guide) | **Done** | `src/components/ContentPageTemplate.tsx`, `GuidePageTemplate.tsx` |
+| Page templates (Content, Guide) | **Done** | `ContentPageTemplate.tsx`, `GuidePageTemplate.tsx` |
 | Glossary anchor slug helper | **Done** | `src/lib/glossary-slug.ts` |
-| App Router pages + `layout.tsx` | **Missing** | Only `src/app/globals.css` exists |
-| Root `@graph` JSON-LD on homepage | **Missing** | Blocked by missing layout/page |
-| `seo-internal-links.ts` | **Missing** | Referenced by templates |
+| App Router pages (46 routes) | **Done** | `src/app/**` |
+| Root `@graph` JSON-LD on homepage | **Done** | `src/app/page.tsx` |
+| Internal linking merge helpers | **Done** | `src/lib/seo-internal-links.ts` |
 | `publicUrlInventory.ts` | **Done** | `src/lib/seo/publicUrlInventory.ts` |
 | Generated sitemap/robots | **Done** | `scripts/generate-seo.ts` → `public/` |
 | SEO CI workflow | **Done** | `.github/workflows/seo-checks.yml` |
-| Sitemap/robots runbook | **Done** | `docs/SITEMAP-AND-ROBOTS.md` |
-| Static pages (fees, qualifications, how-to-instruct, contact, what-is) | **Missing** | Nav links only |
-| Analytics / cookie consent | **Missing** | Env + types only |
-| `vercel.json` | **Missing** | Deployment config pending |
+| Cookie consent (GDPR) | **Done** | `src/components/cookies/*` |
+| Contact form + Google Sheets + webhook | **Done** | `src/app/api/submit-lead/route.ts` |
+| Glossary SearchAction (`?q=` param) | **Done** | `GlossarySearch.tsx` + `websiteSchema` |
+| `/fees`, `/faq` standalone pages | **Removed** | Intentionally excluded per product decision; FAQ sections remain on discipline/case-type/service pages |
+| Analytics loaders | **Ready** | Env IDs wired via cookie consent when user accepts |
 
-### Next implementation steps
+**Total indexable URLs:** 39 (13 static/hubs + 4 disciplines + 10 case-types + 6 sectors + 6 guides)
 
-1. Create `src/lib/seo/publicUrlInventory.ts` with all 40 indexable paths
-2. Create `src/lib/seo-internal-links.ts` merge helpers
-3. Add `src/app/layout.tsx` with `lang="en-GB"`, root metadata, Organization `@graph`
-4. Implement dynamic routes: `disciplines/[slug]`, `case-types/[slug]`, `sectors/[slug]`, `guides/[slug]`
-5. Implement static/hub pages: `/forensic-disciplines`, `/services`, `/glossary`, `/faq`, `/fees`, `/qualifications`, `/how-to-instruct`, `/contact`, `/experts`
-6. Run `npm run seo:generate && npm run seo:verify` before first deploy
+### Pre-deploy verification
+
+```bash
+npm run seo:generate && npm run seo:verify && npm run build
+```

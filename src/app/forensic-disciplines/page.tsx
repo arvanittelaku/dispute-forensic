@@ -84,6 +84,26 @@ export default function ForensicDisciplinesPage() {
             </h2>
             <ul className="mt-3 grid gap-2 sm:grid-cols-2">
               <li>
+                <Link href="/disciplines/forensic-accounting" className="text-sm text-accent hover:underline">
+                  Forensic Accounting →
+                </Link>
+              </li>
+              <li>
+                <Link href="/disciplines/forensic-engineering-quantum" className="text-sm text-accent hover:underline">
+                  Forensic Engineering & Quantum →
+                </Link>
+              </li>
+              <li>
+                <Link href="/disciplines/digital-forensics" className="text-sm text-accent hover:underline">
+                  Digital Forensics →
+                </Link>
+              </li>
+              <li>
+                <Link href="/disciplines/forensic-economics" className="text-sm text-accent hover:underline">
+                  Forensic Economics →
+                </Link>
+              </li>
+              <li>
                 <Link href="/disciplines" className="text-sm text-accent hover:underline">
                   All Disciplines →
                 </Link>
