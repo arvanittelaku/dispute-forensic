@@ -49,7 +49,7 @@ const STANDARD_GUIDE_LINKS: Link[] = [
   CONTACT,
 ];
 
-/** Per-discipline links — docs/SEO-ARCHITECTURE.md Rule 2 */
+/** Per-discipline links, docs/SEO-ARCHITECTURE.md Rule 2 */
 const REQUIRED_DISCIPLINE_LINKS: Record<string, Link[]> = {
   "forensic-accounting": [
     { href: "/guides/forensic-accounting-disputes-guide", label: "Forensic Accounting Disputes Guide" },
@@ -93,7 +93,7 @@ const REQUIRED_DISCIPLINE_LINKS: Record<string, Link[]> = {
   ],
 };
 
-/** Per case-type links — docs/SEO-ARCHITECTURE.md Rule 3 */
+/** Per case-type links, docs/SEO-ARCHITECTURE.md Rule 3 */
 const REQUIRED_CASE_TYPE_LINKS: Record<string, Link[]> = {
   "commercial-fraud-financial-crime": [
     { href: "/disciplines/forensic-accounting", label: "Forensic Accounting" },
@@ -160,7 +160,7 @@ const REQUIRED_CASE_TYPE_LINKS: Record<string, Link[]> = {
   ],
 };
 
-/** Per guide links — docs/SEO-ARCHITECTURE.md Rule 4 */
+/** Per guide links, docs/SEO-ARCHITECTURE.md Rule 4 */
 const REQUIRED_GUIDE_LINKS: Record<string, Link[]> = {
   "forensic-accounting-disputes-guide": [
     { href: "/disciplines/forensic-accounting", label: "Forensic Accounting" },
@@ -202,7 +202,7 @@ const REQUIRED_GUIDE_LINKS: Record<string, Link[]> = {
   ],
 };
 
-/** Per sector links — docs/SEO-ARCHITECTURE.md content clusters */
+/** Per sector links, docs/SEO-ARCHITECTURE.md content clusters */
 const REQUIRED_SECTOR_LINKS: Record<string, Link[]> = {
   "construction-infrastructure": [
     { href: "/disciplines/forensic-engineering-quantum", label: "Forensic Engineering & Quantum" },

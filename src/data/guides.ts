@@ -19,7 +19,7 @@ const guides: GuidePage[] = [
     metaTitle:
       "Forensic Accounting in Disputes: A Complete Guide for Solicitors",
     metaDescription:
-      "In-depth guide for UK solicitors on instructing forensic accounting expert witnesses — loss quantification, fraud investigation, credentials, CPR Part 35, and when to instruct.",
+      "In-depth guide for UK solicitors on instructing forensic accounting expert witnesses, loss quantification, fraud investigation, credentials, CPR Part 35, and when to instruct.",
     aboutServiceId: "forensic-loss-quantification",
     paragraphs: [
       "Forensic accounting expert witnesses are among the most frequently instructed experts in UK commercial litigation. This guide explains what forensic accountants do in disputes, the key services they provide, the credentials to look for, and how to instruct them effectively under CPR Part 35.",
@@ -34,7 +34,7 @@ const guides: GuidePage[] = [
       {
         heading: "Key Forensic Accounting Services",
         content:
-          "Loss quantification is the most common forensic accounting instruction — determining the financial impact of breach of contract, professional negligence, fraud, or other wrongful conduct using but-for analysis.\n\nFraud investigation and asset tracing involves following fund flows through bank accounts and corporate structures to identify misappropriated assets and support freezing injunction applications.\n\nBusiness and share valuation provides independent opinions on business value for shareholder disputes (s994 Companies Act), matrimonial proceedings (FPR Part 25), and M&A disputes.\n\nInsolvency and preference analysis examines transactions prior to insolvency for evidence of preferences, transactions at undervalue, or wrongful trading.\n\nMatrimonial financial analysis covers business valuation, hidden income analysis, and lifestyle analysis for Family Court proceedings.",
+          "Loss quantification is the most common forensic accounting instruction, determining the financial impact of breach of contract, professional negligence, fraud, or other wrongful conduct using but-for analysis.\n\nFraud investigation and asset tracing involves following fund flows through bank accounts and corporate structures to identify misappropriated assets and support freezing injunction applications.\n\nBusiness and share valuation provides independent opinions on business value for shareholder disputes (s994 Companies Act), matrimonial proceedings (FPR Part 25), and M&A disputes.\n\nInsolvency and preference analysis examines transactions prior to insolvency for evidence of preferences, transactions at undervalue, or wrongful trading.\n\nMatrimonial financial analysis covers business valuation, hidden income analysis, and lifestyle analysis for Family Court proceedings.",
       },
       {
         heading: "Credentials and Qualifications",
@@ -49,7 +49,7 @@ const guides: GuidePage[] = [
       {
         heading: "When to Instruct a Forensic Accountant",
         content:
-          "Instruct a forensic accountant as early as practicable — ideally at the pre-action stage. Early instruction allows the expert to advise on document preservation, shape financial disclosure, and provide quantum analysis that informs settlement strategy.\n\nKey trigger points: when quantum of loss is in dispute; when fraud or financial misconduct is alleged; when business valuation is required; when asset tracing is needed for freezing injunctions; and when financial records require reconstruction or analysis.\n\nIn multi-discipline cases (fraud with digital evidence, IP theft with financial loss), instruct the forensic accountant alongside digital forensics experts, with coordinated letters of instruction.",
+          "Instruct a forensic accountant as early as practicable, ideally at the pre-action stage. Early instruction allows the expert to advise on document preservation, shape financial disclosure, and provide quantum analysis that informs settlement strategy.\n\nKey trigger points: when quantum of loss is in dispute; when fraud or financial misconduct is alleged; when business valuation is required; when asset tracing is needed for freezing injunctions; and when financial records require reconstruction or analysis.\n\nIn multi-discipline cases (fraud with digital evidence, IP theft with financial loss), instruct the forensic accountant alongside digital forensics experts, with coordinated letters of instruction.",
       },
     ],
     faqs: [],
@@ -67,27 +67,27 @@ const guides: GuidePage[] = [
     metaTitle:
       "Construction Quantum Forensic Experts: A Solicitor's Guide",
     metaDescription:
-      "Guide for UK solicitors on instructing construction quantum and delay forensic experts — JCT, NEC, FIDIC, Scott Schedules, TCC practice, and adjudication evidence.",
+      "Guide for UK solicitors on instructing construction quantum and delay forensic experts, JCT, NEC, FIDIC, Scott Schedules, TCC practice, and adjudication evidence.",
     aboutServiceId: "construction-quantum-delay",
     paragraphs: [
       "Construction disputes are expert-intensive by nature. This guide explains the distinct roles of quantum experts, delay experts, and forensic engineers in construction claims, the standard form contract context, and best practice for instructing forensic experts in TCC proceedings and adjudication.",
-      "Understanding the difference between quantum and delay expertise — and when each is needed — is essential for framing construction claims and instructing the right experts from the outset.",
+      "Understanding the difference between quantum and delay expertise, and when each is needed, is essential for framing construction claims and instructing the right experts from the outset.",
     ],
     sections: [
       {
         heading: "Quantum vs Delay vs Forensic Engineering",
         content:
-          "Construction disputes involve three distinct but related expert disciplines. Quantum experts (typically MRICS or FRICS chartered quantity surveyors) value the financial impact of claims — loss and expense, variations, prolongation costs, disruption, and final account disputes.\n\nDelay experts (construction programmers) analyse the project programme to determine causation and entitlement to extensions of time. They use methodologies including Time Impact Analysis (TIA), windows analysis, and as-planned vs as-built comparison.\n\nForensic engineers (CEng) address technical failure, defects, design issues, and causation of physical damage or non-performance. Complex construction disputes often require all three disciplines working together to present a complete picture of entitlement and quantum.",
+          "Construction disputes involve three distinct but related expert disciplines. Quantum experts (typically MRICS or FRICS chartered quantity surveyors) value the financial impact of claims, loss and expense, variations, prolongation costs, disruption, and final account disputes.\n\nDelay experts (construction programmers) analyse the project programme to determine causation and entitlement to extensions of time. They use methodologies including Time Impact Analysis (TIA), windows analysis, and as-planned vs as-built comparison.\n\nForensic engineers (CEng) address technical failure, defects, design issues, and causation of physical damage or non-performance. Complex construction disputes often require all three disciplines working together to present a complete picture of entitlement and quantum.",
       },
       {
         heading: "Standard Form Contracts: JCT, NEC, and FIDIC",
         content:
-          "Forensic quantum experts must understand the specific contractual framework governing the dispute. JCT contracts (Design and Build, Standard Building Contract) contain detailed provisions on variations, loss and expense, and extensions of time that directly affect quantum analysis.\n\nNEC contracts (NEC3, NEC4) use a different mechanism — compensation events rather than variations — requiring quantum experts familiar with NEC terminology and assessment procedures.\n\nFIDIC contracts (Red, Yellow, Silver Books) govern most international construction projects and contain distinct provisions on claims, variations, and delay damages. Experts appearing in international construction arbitration must be familiar with FIDIC claim procedures and the role of the Dispute Adjudication Board (DAB).",
+          "Forensic quantum experts must understand the specific contractual framework governing the dispute. JCT contracts (Design and Build, Standard Building Contract) contain detailed provisions on variations, loss and expense, and extensions of time that directly affect quantum analysis.\n\nNEC contracts (NEC3, NEC4) use a different mechanism, compensation events rather than variations, requiring quantum experts familiar with NEC terminology and assessment procedures.\n\nFIDIC contracts (Red, Yellow, Silver Books) govern most international construction projects and contain distinct provisions on claims, variations, and delay damages. Experts appearing in international construction arbitration must be familiar with FIDIC claim procedures and the role of the Dispute Adjudication Board (DAB).",
       },
       {
         heading: "Loss and Expense, Prolongation, and Disruption",
         content:
-          "Loss and expense claims compensate the contractor for costs incurred due to employer-caused delays or disruptions. Quantum experts quantify these costs by analysing site records, cost reports, and contemporaneous documentation.\n\nProlongation costs are the extended site overheads, preliminaries, and management costs incurred when the contractor remains on site beyond the original completion date. These are distinct from direct delay costs and require careful analysis of the contractor's cost records.\n\nDisruption claims address loss of productivity caused by disruptive events — stacked trades, restricted access, or design changes — rather than overall project delay. The measured mile and other analytical techniques are used to quantify disruption losses.",
+          "Loss and expense claims compensate the contractor for costs incurred due to employer-caused delays or disruptions. Quantum experts quantify these costs by analysing site records, cost reports, and contemporaneous documentation.\n\nProlongation costs are the extended site overheads, preliminaries, and management costs incurred when the contractor remains on site beyond the original completion date. These are distinct from direct delay costs and require careful analysis of the contractor's cost records.\n\nDisruption claims address loss of productivity caused by disruptive events, stacked trades, restricted access, or design changes, rather than overall project delay. The measured mile and other analytical techniques are used to quantify disruption losses.",
       },
       {
         heading: "Scott Schedules and TCC Practice",
@@ -115,17 +115,17 @@ const guides: GuidePage[] = [
     metaTitle:
       "Digital Forensics Expert Evidence in Civil Disputes: UK Guide",
     metaDescription:
-      "Guide for UK solicitors on digital forensics expert evidence — e-discovery under CPR Part 31, data theft, cybercrime civil recovery, credentials, and CPR Part 35 compliance.",
+      "Guide for UK solicitors on digital forensics expert evidence, e-discovery under CPR Part 31, data theft, cybercrime civil recovery, credentials, and CPR Part 35 compliance.",
     aboutServiceId: "digital-forensics-ediscovery",
     paragraphs: [
-      "Digital forensics expert evidence is increasingly central to UK civil litigation — from IP theft and data misappropriation to cybercrime civil recovery and e-discovery disputes. This guide explains what digital forensics covers, the procedural framework, and how to instruct digital forensics experts effectively.",
+      "Digital forensics expert evidence is increasingly central to UK civil litigation, from IP theft and data misappropriation to cybercrime civil recovery and e-discovery disputes. This guide explains what digital forensics covers, the procedural framework, and how to instruct digital forensics experts effectively.",
       "Early instruction is critical in digital forensics cases: electronic evidence can be lost, overwritten, or deleted if not preserved promptly after the dispute arises.",
     ],
     sections: [
       {
         heading: "What Digital Forensics Covers",
         content:
-          "Digital forensics is the application of scientific investigation techniques to electronic data. In civil disputes, digital forensics experts analyse computers, mobile devices, cloud storage, email servers, network logs, and metadata to establish facts relevant to the case.\n\nKey areas include: data recovery from damaged or deleted storage; analysis of USB device activity and file transfer logs; email forensics and communication analysis; cloud storage and SaaS platform forensics; mobile device forensics (iOS and Android); metadata analysis for document authenticity; and network forensics for unauthorised access or data exfiltration.\n\nAll analysis must maintain chain of custody integrity — a documented record of the seizure, transfer, analysis, and storage of evidence — to ensure court admissibility.",
+          "Digital forensics is the application of scientific investigation techniques to electronic data. In civil disputes, digital forensics experts analyse computers, mobile devices, cloud storage, email servers, network logs, and metadata to establish facts relevant to the case.\n\nKey areas include: data recovery from damaged or deleted storage; analysis of USB device activity and file transfer logs; email forensics and communication analysis; cloud storage and SaaS platform forensics; mobile device forensics (iOS and Android); metadata analysis for document authenticity; and network forensics for unauthorised access or data exfiltration.\n\nAll analysis must maintain chain of custody integrity, a documented record of the seizure, transfer, analysis, and storage of evidence, to ensure court admissibility.",
       },
       {
         heading: "E-Discovery Under CPR Part 31",
@@ -140,7 +140,7 @@ const guides: GuidePage[] = [
       {
         heading: "Cybercrime Civil Recovery",
         content:
-          "Civil recovery actions following cybercrime — ransomware, business email compromise, and authorised push payment fraud — require digital forensics to establish the mechanism of the attack and forensic accounting to quantify the financial loss.\n\nDigital forensics experts analyse server logs, email headers, malware artefacts, and network traffic to reconstruct the attack timeline and identify the attack vector. This evidence supports both the liability case and any insurance claim.\n\nGDPR data breach litigation also requires digital forensics input to establish the scope of the breach, the data affected, and whether appropriate security measures were in place.",
+          "Civil recovery actions following cybercrime, ransomware, business email compromise, and authorised push payment fraud, require digital forensics to establish the mechanism of the attack and forensic accounting to quantify the financial loss.\n\nDigital forensics experts analyse server logs, email headers, malware artefacts, and network traffic to reconstruct the attack timeline and identify the attack vector. This evidence supports both the liability case and any insurance claim.\n\nGDPR data breach litigation also requires digital forensics input to establish the scope of the breach, the data affected, and whether appropriate security measures were in place.",
       },
       {
         heading: "Credentials and CPR Part 35 Compliance",
@@ -163,22 +163,22 @@ const guides: GuidePage[] = [
     metaTitle:
       "Forensic Economics & Competition Damages: A Solicitor's Guide",
     metaDescription:
-      "Guide for UK solicitors on forensic economics in competition law — cartel overcharge, pass-on defence, CAT proceedings, investment treaty economics, and counterfactual methodology.",
+      "Guide for UK solicitors on forensic economics in competition law, cartel overcharge, pass-on defence, CAT proceedings, investment treaty economics, and counterfactual methodology.",
     aboutServiceId: "economic-damages-analysis",
     paragraphs: [
       "Competition law damages claims and investment treaty arbitration require forensic economics expertise that goes beyond standard forensic accounting. This guide explains the economic methodology, key concepts, and procedural context for instructing forensic economists in UK and international proceedings.",
-      "Forensic economists and forensic accountants frequently work together in competition damages claims — the economist constructs the counterfactual model while the accountant verifies assumptions against financial records.",
+      "Forensic economists and forensic accountants frequently work together in competition damages claims, the economist constructs the counterfactual model while the accountant verifies assumptions against financial records.",
     ],
     sections: [
       {
         heading: "Cartel Overcharge Methodology",
         content:
-          "Cartel overcharge calculations estimate the price premium paid by customers as a result of the cartel arrangement. Forensic economists construct a but-for counterfactual — what prices would have been absent the cartel — and compare this to actual prices paid.\n\nCommon econometric techniques include: difference-in-differences analysis (comparing price changes in affected vs unaffected markets); yardstick comparisons (using prices in similar but unaffected markets as a benchmark); and simulation models based on economic theory of competitive pricing.\n\nThe choice of methodology depends on data availability, market structure, and the nature of the cartel. CAT jurisprudence has established principles for assessing the reliability of different overcharge estimation approaches.",
+          "Cartel overcharge calculations estimate the price premium paid by customers as a result of the cartel arrangement. Forensic economists construct a but-for counterfactual, what prices would have been absent the cartel, and compare this to actual prices paid.\n\nCommon econometric techniques include: difference-in-differences analysis (comparing price changes in affected vs unaffected markets); yardstick comparisons (using prices in similar but unaffected markets as a benchmark); and simulation models based on economic theory of competitive pricing.\n\nThe choice of methodology depends on data availability, market structure, and the nature of the cartel. CAT jurisprudence has established principles for assessing the reliability of different overcharge estimation approaches.",
       },
       {
         heading: "The Pass-On Defence",
         content:
-          "The pass-on defence allows cartel defendants to argue that the claimant passed the overcharge on to its own customers, reducing or eliminating its own loss. This defence has been significantly shaped by the EU Damages Directive and CAT case law.\n\nForensic economists address pass-on through pricing analysis and econometric modelling — examining whether and to what extent the claimant increased its own prices in response to the cartel overcharge.\n\nThe pass-on analysis is often the most contested aspect of competition damages claims, requiring rigorous economic evidence and frequently involving separate pass-on experts on each side.",
+          "The pass-on defence allows cartel defendants to argue that the claimant passed the overcharge on to its own customers, reducing or eliminating its own loss. This defence has been significantly shaped by the EU Damages Directive and CAT case law.\n\nForensic economists address pass-on through pricing analysis and econometric modelling, examining whether and to what extent the claimant increased its own prices in response to the cartel overcharge.\n\nThe pass-on analysis is often the most contested aspect of competition damages claims, requiring rigorous economic evidence and frequently involving separate pass-on experts on each side.",
       },
       {
         heading: "CAT Proceedings",
@@ -188,12 +188,12 @@ const guides: GuidePage[] = [
       {
         heading: "Investment Treaty Economics",
         content:
-          "Investment treaty arbitration under ICSID and UNCITRAL rules requires forensic economists to quantify damages using the Chorzów Factory standard — full reparation for injury caused by the state's breach of the investment treaty.\n\nCommon methodologies include discounted cash flow (DCF) analysis, market-based valuations, and book value approaches. The choice of methodology depends on the nature of the investment, data availability, and tribunal preferences established in prior awards.\n\nInvestment treaty economics is heavily scrutinised — tribunals frequently appoint their own economic experts and conduct detailed analysis of the parties' DCF models, discount rates, and cash flow projections.",
+          "Investment treaty arbitration under ICSID and UNCITRAL rules requires forensic economists to quantify damages using the Chorzów Factory standard, full reparation for injury caused by the state's breach of the investment treaty.\n\nCommon methodologies include discounted cash flow (DCF) analysis, market-based valuations, and book value approaches. The choice of methodology depends on the nature of the investment, data availability, and tribunal preferences established in prior awards.\n\nInvestment treaty economics is heavily scrutinised, tribunals frequently appoint their own economic experts and conduct detailed analysis of the parties' DCF models, discount rates, and cash flow projections.",
       },
       {
         heading: "Counterfactual Methodology and Data Requirements",
         content:
-          "Counterfactual analysis is the foundation of forensic economics — constructing what would have happened but for the wrongful conduct. The reliability of any damages estimate depends on the quality of the counterfactual and the data supporting it.\n\nForensic economists require: pricing and volume data for the affected period; comparable market data for yardstick analysis; financial records to verify economic assumptions; and industry data for market definition analysis.\n\nEarly engagement with the forensic economist allows identification of data requirements and ensures relevant data is preserved and disclosed. Coordinate with forensic accountants to ensure financial data supporting the economic model is available and verified.",
+          "Counterfactual analysis is the foundation of forensic economics, constructing what would have happened but for the wrongful conduct. The reliability of any damages estimate depends on the quality of the counterfactual and the data supporting it.\n\nForensic economists require: pricing and volume data for the affected period; comparable market data for yardstick analysis; financial records to verify economic assumptions; and industry data for market definition analysis.\n\nEarly engagement with the forensic economist allows identification of data requirements and ensures relevant data is preserved and disclosed. Coordinate with forensic accountants to ensure financial data supporting the economic model is available and verified.",
       },
     ],
     faqs: [],
@@ -211,17 +211,17 @@ const guides: GuidePage[] = [
     metaTitle:
       "Hot-Tubbing & Concurrent Evidence: A Guide for Solicitors Using Forensic Experts",
     metaDescription:
-      "Guide for UK solicitors on hot-tubbing and concurrent expert evidence — TCC practice, arbitration procedures, preparing forensic experts, and joint statements.",
+      "Guide for UK solicitors on hot-tubbing and concurrent expert evidence, TCC practice, arbitration procedures, preparing forensic experts, and joint statements.",
     aboutServiceId: "expert-determination-adr",
     paragraphs: [
-      "Hot-tubbing — concurrent evidence — is increasingly used in UK courts and international arbitration to resolve technical expert disputes efficiently. This guide explains the procedure, when it is ordered, and how to prepare your forensic experts for concurrent evidence sessions.",
-      "Forensic experts from all disciplines — accounting, engineering, digital forensics, and economics — should be prepared for hot-tubbing in any complex dispute, particularly in the TCC and CAT.",
+      "Hot-tubbing, concurrent evidence, is increasingly used in UK courts and international arbitration to resolve technical expert disputes efficiently. This guide explains the procedure, when it is ordered, and how to prepare your forensic experts for concurrent evidence sessions.",
+      "Forensic experts from all disciplines, accounting, engineering, digital forensics, and economics, should be prepared for hot-tubbing in any complex dispute, particularly in the TCC and CAT.",
     ],
     sections: [
       {
         heading: "What Is Hot-Tubbing?",
         content:
-          "Hot-tubbing — formally concurrent evidence — is a procedure where experts from both sides give evidence simultaneously before the judge or tribunal, rather than in the traditional sequential format of examination-in-chief followed by cross-examination.\n\nThe judge or arbitrator directs the discussion, asking questions, probing areas of agreement and disagreement, and inviting experts to respond to each other's opinions in real time. This allows the tribunal to directly compare expert evidence and resolve technical questions more efficiently.\n\nHot-tubbing was pioneered in Australian courts and has been increasingly adopted in the UK, particularly in the Technology and Construction Court, the Competition Appeal Tribunal, and international arbitration.",
+          "Hot-tubbing, formally concurrent evidence, is a procedure where experts from both sides give evidence simultaneously before the judge or tribunal, rather than in the traditional sequential format of examination-in-chief followed by cross-examination.\n\nThe judge or arbitrator directs the discussion, asking questions, probing areas of agreement and disagreement, and inviting experts to respond to each other's opinions in real time. This allows the tribunal to directly compare expert evidence and resolve technical questions more efficiently.\n\nHot-tubbing was pioneered in Australian courts and has been increasingly adopted in the UK, particularly in the Technology and Construction Court, the Competition Appeal Tribunal, and international arbitration.",
       },
       {
         heading: "When Is Hot-Tubbing Ordered?",
@@ -231,7 +231,7 @@ const guides: GuidePage[] = [
       {
         heading: "TCC and Arbitration Practice",
         content:
-          "In TCC proceedings, hot-tubbing typically follows the exchange of expert reports and a joint statement identifying agreed and disputed issues. The experts are sworn in together and the judge directs the discussion, with advocates permitted to ask supplementary questions.\n\nIn international arbitration, hot-tubbing is commonly used under IBA Rules on Evidence. The tribunal may structure the session by issue, asking each expert to address specific questions before inviting discussion between the experts.\n\nThe format varies — some tribunals prefer a structured question-and-answer approach, while others allow freer discussion. Experts should be prepared for both formats.",
+          "In TCC proceedings, hot-tubbing typically follows the exchange of expert reports and a joint statement identifying agreed and disputed issues. The experts are sworn in together and the judge directs the discussion, with advocates permitted to ask supplementary questions.\n\nIn international arbitration, hot-tubbing is commonly used under IBA Rules on Evidence. The tribunal may structure the session by issue, asking each expert to address specific questions before inviting discussion between the experts.\n\nThe format varies, some tribunals prefer a structured question-and-answer approach, while others allow freer discussion. Experts should be prepared for both formats.",
       },
       {
         heading: "Preparing Forensic Experts for Hot-Tubbing",
@@ -241,7 +241,7 @@ const guides: GuidePage[] = [
       {
         heading: "Joint Statements Before Hot-Tubbing",
         content:
-          "CPR Part 35 requires experts to meet and produce a joint statement identifying agreed facts and opinions, areas of disagreement, and the reasons for disagreement. The joint statement is the foundation for an effective hot-tubbing session.\n\nA well-prepared joint statement narrows the issues significantly, allowing the hot-tubbing session to focus on the genuinely disputed matters rather than rehashing areas of agreement.\n\nIn multi-discipline cases, separate joint statements are produced within each discipline. Coordinate joint meetings across disciplines where issues overlap — for example, where the quantum expert's calculations depend on the delay expert's EOT assessment.",
+          "CPR Part 35 requires experts to meet and produce a joint statement identifying agreed facts and opinions, areas of disagreement, and the reasons for disagreement. The joint statement is the foundation for an effective hot-tubbing session.\n\nA well-prepared joint statement narrows the issues significantly, allowing the hot-tubbing session to focus on the genuinely disputed matters rather than rehashing areas of agreement.\n\nIn multi-discipline cases, separate joint statements are produced within each discipline. Coordinate joint meetings across disciplines where issues overlap, for example, where the quantum expert's calculations depend on the delay expert's EOT assessment.",
       },
     ],
     faqs: [],
@@ -259,7 +259,7 @@ const guides: GuidePage[] = [
     metaTitle:
       "Multi-Discipline Forensic Expert Teams: When and How to Instruct Them",
     metaDescription:
-      "Guide for UK solicitors on instructing multi-discipline forensic expert teams — when multiple disciplines are needed, coordinating reports, joint meetings, and cost management.",
+      "Guide for UK solicitors on instructing multi-discipline forensic expert teams, when multiple disciplines are needed, coordinating reports, joint meetings, and cost management.",
     aboutServiceId: "forensic-loss-quantification",
     paragraphs: [
       "Complex disputes frequently require forensic experts from more than one discipline working together. DisputeForensic.com is uniquely positioned to coordinate multi-discipline forensic teams across accounting, engineering, digital forensics, and economics.",
@@ -284,7 +284,7 @@ const guides: GuidePage[] = [
       {
         heading: "Joint Meetings with Multi-Discipline Teams",
         content:
-          "CPR Part 35 requires experts within the same discipline to meet and produce joint statements. In multi-discipline cases, this means separate joint meetings for each discipline — the forensic accountants meet, the digital forensics experts meet, and so on.\n\nWhere issues cross disciplines — for example, where the quantum expert's calculations depend on the delay expert's findings — consider coordinating joint meetings or holding a multi-discipline meeting to address the interface between disciplines.\n\nIn international arbitration, tribunals may order multi-discipline hot-tubbing sessions where experts from all disciplines appear together, with the tribunal directing discussion across disciplinary boundaries.",
+          "CPR Part 35 requires experts within the same discipline to meet and produce joint statements. In multi-discipline cases, this means separate joint meetings for each discipline, the forensic accountants meet, the digital forensics experts meet, and so on.\n\nWhere issues cross disciplines, for example, where the quantum expert's calculations depend on the delay expert's findings, consider coordinating joint meetings or holding a multi-discipline meeting to address the interface between disciplines.\n\nIn international arbitration, tribunals may order multi-discipline hot-tubbing sessions where experts from all disciplines appear together, with the tribunal directing discussion across disciplinary boundaries.",
       },
       {
         heading: "Cost Management",

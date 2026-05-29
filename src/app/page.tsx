@@ -19,7 +19,7 @@ import { HOMEPAGE_SEO_LINKS } from "@/lib/seo-internal-links";
 
 export const metadata = createMetadata({
   title:
-    "Forensic Expert Witness UK | All Four Disciplines — DisputeForensic",
+    "Forensic Expert Witness UK | All Four Disciplines | DisputeForensic",
   description:
     "Connect with forensic expert witnesses across accounting, engineering, digital forensics, and economics for UK litigation and arbitration. CPR Part 35 and IBA Rules compliant.",
   path: "/",
@@ -54,7 +54,7 @@ export default function HomePage() {
       <JsonLd data={homepageSchema} />
       <PageHero
         title="Forensic Expert Witness Services for UK Solicitors & Counsel"
-        subtitle="DisputeForensic.com is the UK's multi-discipline forensic expert witness portal — connecting solicitors, barristers, and international arbitration counsel with qualified experts across forensic accounting, forensic engineering and quantum, digital forensics, and forensic economics. CPR Part 35 and IBA Rules compliant."
+        subtitle="DisputeForensic.com is the UK's multi-discipline forensic expert witness portal, connecting solicitors, barristers, and international arbitration counsel with qualified experts across forensic accounting, forensic engineering and quantum, digital forensics, and forensic economics. CPR Part 35 and IBA Rules compliant."
       />
       <Section>
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -78,7 +78,7 @@ export default function HomePage() {
           Four Forensic Expert Witness Disciplines
         </h2>
         <p className="mt-3 max-w-3xl text-body leading-relaxed">
-          Complex disputes require the right forensic discipline — or a
+          Complex disputes require the right forensic discipline, or a
           coordinated multi-discipline team. DisputeForensic.com covers all four
           core forensic expert witness disciplines under one roof.
         </p>
@@ -161,7 +161,7 @@ export default function HomePage() {
           Whether your dispute requires a forensic accountant to quantify losses,
           a quantum expert for a construction claim, a digital forensics
           specialist for data theft evidence, or a forensic economist for
-          competition damages — DisputeForensic.com matches you with the right
+          competition damages, DisputeForensic.com matches you with the right
           expert.{" "}
           <Link href="/what-is-forensic-expert-witness" className="text-accent underline">
             What is a forensic expert witness?

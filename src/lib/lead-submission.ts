@@ -3,7 +3,7 @@ import { appendRow, type CellValue } from "@/lib/google-sheets";
 /** Shown in outbound webhook JSON as `Brand name`. */
 export const BRAND_NAME = "DisputeForensic";
 
-/** Row 1 headers on GOOGLE_SHEET_TAB_NAME — must match buildLeadSheetRow column order */
+/** Row 1 headers on GOOGLE_SHEET_TAB_NAME, must match buildLeadSheetRow column order */
 export const LEAD_SHEET_HEADERS = [
   "Timestamp",
   "Full Name",

@@ -11,7 +11,7 @@ import { sjeVsPaeBlock, hotTubbingIntroBlock } from "@/data/shared-content";
 export const metadata = createMetadata({
   title: "How to Instruct a Forensic Expert Witness UK | Step-by-Step Guide",
   description:
-    "Step-by-step guide for UK solicitors on instructing the right forensic expert witness — identifying the discipline needed, credentials, SJE vs PAE, and letters of instruction.",
+    "Step-by-step guide for UK solicitors on instructing the right forensic expert witness, identifying the discipline needed, credentials, SJE vs PAE, and letters of instruction.",
   path: "/how-to-instruct",
 });
 
@@ -34,7 +34,7 @@ const steps = [
   {
     title: "Sector Expertise",
     content:
-      "Does the expert understand the sector's specific dynamics — construction contract forms, financial services regulation, technology IP structures, or energy project economics? Sector experience significantly improves report quality and credibility under cross-examination.",
+      "Does the expert understand the sector's specific dynamics, construction contract forms, financial services regulation, technology IP structures, or energy project economics? Sector experience significantly improves report quality and credibility under cross-examination.",
   },
   {
     title: "Credentials Check",
@@ -49,7 +49,7 @@ const steps = [
   {
     title: "Documents to Provide",
     content:
-      "Provide all relevant documents at the outset — pleadings, key contracts, financial records, programme data, or electronic evidence preservation protocols. In digital forensics cases, issue preservation letters promptly to prevent loss of metadata and electronic evidence.",
+      "Provide all relevant documents at the outset, pleadings, key contracts, financial records, programme data, or electronic evidence preservation protocols. In digital forensics cases, issue preservation letters promptly to prevent loss of metadata and electronic evidence.",
   },
 ];
 

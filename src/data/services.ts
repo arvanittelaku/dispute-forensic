@@ -56,13 +56,13 @@ const services: Service[] = [
         question:
           "When should a solicitor instruct a forensic accountant for loss quantification?",
         answer:
-          "Instruct as soon as the heads of loss are identified in pleadings or pre-action correspondence — typically when financial quantum is disputed, multiple loss scenarios exist, or the defendant challenges causation or mitigation. Early instruction allows the expert to advise on document preservation, agree data protocols with the opposing expert, and shape the quantum case before disclosure is complete. CPR Part 35 reports are usually required before trial listing in the Commercial Court and TCC.",
+          "Instruct as soon as the heads of loss are identified in pleadings or pre-action correspondence, typically when financial quantum is disputed, multiple loss scenarios exist, or the defendant challenges causation or mitigation. Early instruction allows the expert to advise on document preservation, agree data protocols with the opposing expert, and shape the quantum case before disclosure is complete. CPR Part 35 reports are usually required before trial listing in the Commercial Court and TCC.",
       },
       {
         question:
           "What is the difference between but-for loss and reliance loss in expert reports?",
         answer:
-          "But-for (expectation) loss places the claimant in the position they would have been in had the contract been performed — usually measured as lost profit. Reliance loss recovers wasted expenditure where expectation loss cannot be proved or where Anglia Television applies. The forensic accountant must address which measure the law supports, apply SAAMCo where professional negligence is alleged, and structure the report so each head satisfies Hadley v Baxendale remoteness.",
+          "But-for (expectation) loss places the claimant in the position they would have been in had the contract been performed, usually measured as lost profit. Reliance loss recovers wasted expenditure where expectation loss cannot be proved or where Anglia Television applies. The forensic accountant must address which measure the law supports, apply SAAMCo where professional negligence is alleged, and structure the report so each head satisfies Hadley v Baxendale remoteness.",
       },
     ],
     relatedDiscipline: "forensic-accounting",
@@ -164,13 +164,13 @@ const services: Service[] = [
         question:
           "What is the difference between a quantum expert and a delay expert?",
         answer:
-          "A quantum expert (typically MRICS/FRICS) values the financial impact of claims — loss and expense, variations, prolongation, and final account disputes. A delay expert (construction programmer) analyses the programme to determine causation and entitlement to extensions of time. Complex TCC disputes often require both, working together with Scott Schedules and joint statements before trial or hot-tubbing.",
+          "A quantum expert (typically MRICS/FRICS) values the financial impact of claims, loss and expense, variations, prolongation, and final account disputes. A delay expert (construction programmer) analyses the programme to determine causation and entitlement to extensions of time. Complex TCC disputes often require both, working together with Scott Schedules and joint statements before trial or hot-tubbing.",
       },
       {
         question:
           "How quickly can construction forensic experts support adjudication?",
         answer:
-          "Adjudication timelines are typically 28 days from referral. Quantum and delay experts can provide preliminary opinions, Scott Schedules, and written reports within compressed timetables where documents are available. Early instruction — ideally before the notice of adjudication — maximises the quality of forensic evidence submitted to the adjudicator.",
+          "Adjudication timelines are typically 28 days from referral. Quantum and delay experts can provide preliminary opinions, Scott Schedules, and written reports within compressed timetables where documents are available. Early instruction, ideally before the notice of adjudication, maximises the quality of forensic evidence submitted to the adjudicator.",
       },
     ],
     relatedDiscipline: "forensic-engineering-quantum",
@@ -272,13 +272,13 @@ const services: Service[] = [
         question:
           "What is a cartel overcharge and how is it calculated?",
         answer:
-          "A cartel overcharge is the price premium paid by purchasers due to anticompetitive coordination. Forensic economists construct a but-for counterfactual showing prices absent the cartel — using difference-in-differences, yardstick benchmarks, or econometric regression — and quantify the resulting overcharge. Pass-on defences are addressed through pricing analysis and market data, shaped by EU Damages Directive principles and CAT jurisprudence.",
+          "A cartel overcharge is the price premium paid by purchasers due to anticompetitive coordination. Forensic economists construct a but-for counterfactual showing prices absent the cartel, using difference-in-differences, yardstick benchmarks, or econometric regression, and quantify the resulting overcharge. Pass-on defences are addressed through pricing analysis and market data, shaped by EU Damages Directive principles and CAT jurisprudence.",
       },
       {
         question:
           "When is a forensic economist needed instead of a forensic accountant?",
         answer:
-          "Forensic economists are required when loss quantification depends on economic methodology beyond standard accounting — competition damages with overcharge models, investment treaty arbitration requiring market-based valuation, and regulatory proceedings involving market definition. Forensic accountants often verify economic assumptions against financial records; both may be instructed in the same claim.",
+          "Forensic economists are required when loss quantification depends on economic methodology beyond standard accounting, competition damages with overcharge models, investment treaty arbitration requiring market-based valuation, and regulatory proceedings involving market definition. Forensic accountants often verify economic assumptions against financial records; both may be instructed in the same claim.",
       },
     ],
     relatedDiscipline: "forensic-economics",
@@ -332,7 +332,7 @@ const services: Service[] = [
         question:
           "How does business valuation differ in matrimonial proceedings?",
         answer:
-          "Matrimonial valuations under FPR Part 25 focus on the value of business interests owned by a spouse, hidden income analysis, and lifestyle benchmarking. The expert must comply with family court procedure, attend FDR where required, and produce reports suitable for Form E and final hearing — often coordinating with digital forensics where assets are concealed online.",
+          "Matrimonial valuations under FPR Part 25 focus on the value of business interests owned by a spouse, hidden income analysis, and lifestyle benchmarking. The expert must comply with family court procedure, attend FDR where required, and produce reports suitable for Form E and final hearing, often coordinating with digital forensics where assets are concealed online.",
       },
     ],
     relatedDiscipline: "forensic-accounting",
@@ -380,7 +380,7 @@ const services: Service[] = [
         question:
           "How do forensic experts support FCA regulatory proceedings?",
         answer:
-          "Forensic accountants analyse trading records, client money flows, and firm accounts to establish facts relevant to alleged breaches — market manipulation, mis-selling, or capital adequacy failures. Forensic economists may assess market impact. Experts may advise the regulated firm confidentially or give formal evidence in enforcement references and subsequent civil proceedings.",
+          "Forensic accountants analyse trading records, client money flows, and firm accounts to establish facts relevant to alleged breaches, market manipulation, mis-selling, or capital adequacy failures. Forensic economists may assess market impact. Experts may advise the regulated firm confidentially or give formal evidence in enforcement references and subsequent civil proceedings.",
       },
       {
         question:
@@ -413,7 +413,7 @@ const services: Service[] = [
       {
         phase: "Independent Analysis",
         whatWeDo:
-          "Conduct independent analysis within the expert's discipline — quantum valuation, technical assessment, or financial calculation — applying professional standards.",
+          "Conduct independent analysis within the expert's discipline, quantum valuation, technical assessment, or financial calculation, applying professional standards.",
         deliverable: "Determination working papers",
       },
       {
@@ -434,7 +434,7 @@ const services: Service[] = [
         question:
           "What is expert determination and when is it used in construction contracts?",
         answer:
-          "Expert determination is a contractual dispute resolution mechanism where an independent expert decides defined technical or valuation issues — commonly final account disputes under JCT and NEC. The determination may be binding or non-binding depending on the clause. Multi-discipline experts (QS, engineer, accountant) are appointed as determiners rather than party-appointed witnesses.",
+          "Expert determination is a contractual dispute resolution mechanism where an independent expert decides defined technical or valuation issues, commonly final account disputes under JCT and NEC. The determination may be binding or non-binding depending on the clause. Multi-discipline experts (QS, engineer, accountant) are appointed as determiners rather than party-appointed witnesses.",
       },
       {
         question:

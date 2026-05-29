@@ -43,11 +43,11 @@ export default function WhatIsForensicExpertWitnessPage() {
           <h2>Definition</h2>
           <p>
             A forensic expert witness is a qualified specialist who applies the
-            rigorous methodology and professional standards of their discipline —
-            whether accounting, engineering, computing, or economics — to provide
+            rigorous methodology and professional standards of their discipline , 
+            whether accounting, engineering, computing, or economics, to provide
             independent expert evidence in legal proceedings. The word
             &quot;forensic&quot; derives from the Latin forensis (of the forum)
-            — meaning knowledge presented in a public, legal setting for the
+           , meaning knowledge presented in a public, legal setting for the
             resolution of disputes.
           </p>
           <p>
@@ -81,7 +81,7 @@ export default function WhatIsForensicExpertWitnessPage() {
               technical failure analysis
             </li>
             <li>
-              Disputes turning on electronic evidence — data theft, cybercrime,
+              Disputes turning on electronic evidence, data theft, cybercrime,
               IP misappropriation, or e-discovery
             </li>
             <li>

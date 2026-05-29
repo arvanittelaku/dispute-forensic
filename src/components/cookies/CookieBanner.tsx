@@ -5,7 +5,7 @@ import { useCookieConsent } from "./CookieConsentContext";
 import { CookiePreferencesPanel } from "./CookiePreferencesPanel";
 
 /**
- * Compact fixed bottom strip — not a modal or card.
+ * Compact fixed bottom strip, not a modal or card.
  * Full-width bar, minimal height, no CLS (position: fixed).
  */
 export function CookieBanner() {

@@ -11,7 +11,7 @@ import { GlossarySearch } from "./GlossarySearch";
 export const metadata = createMetadata({
   title: "Forensic Expert Witness Glossary | Key UK Dispute Terms",
   description:
-    "Definitions of key forensic expert witness and dispute terms for UK litigation — from forensic accounting to e-discovery, hot-tubbing, and CPR Part 35.",
+    "Definitions of key forensic expert witness and dispute terms for UK litigation, from forensic accounting to e-discovery, hot-tubbing, and CPR Part 35.",
   path: "/glossary",
 });
 
@@ -31,7 +31,7 @@ export default function GlossaryPage() {
       />
       <PageHero
         title="Forensic Expert Witness Glossary"
-        subtitle="Key UK legal and forensic terms used in forensic expert witness reports and dispute proceedings — from but-for analysis to CPR Part 35, hot-tubbing, and Scott Schedules."
+        subtitle="Key UK legal and forensic terms used in forensic expert witness reports and dispute proceedings, from but-for analysis to CPR Part 35, hot-tubbing, and Scott Schedules."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Glossary" }]}
       />
       <Section>

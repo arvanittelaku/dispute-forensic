@@ -55,7 +55,7 @@ async function main() {
     robots = await readFile(robotsPath, "utf8");
   } catch {
     console.error(
-      "Missing public/sitemap.xml or public/robots.txt — run npm run seo:generate first."
+      "Missing public/sitemap.xml or public/robots.txt, run npm run seo:generate first."
     );
     process.exit(1);
   }
@@ -73,17 +73,17 @@ async function main() {
   if (missing.length > 0) {
     failed = true;
     console.error("URLs in inventory but missing from sitemap.xml:");
-    missing.forEach((u) => console.error(`  - ${u}`));
+    missing.forEach((u) => console.error(` - ${u}`));
   }
   if (extra.length > 0) {
     failed = true;
     console.error("URLs in sitemap.xml but not in inventory:");
-    extra.forEach((u) => console.error(`  - ${u}`));
+    extra.forEach((u) => console.error(` - ${u}`));
   }
   if (robotsErrors.length > 0) {
     failed = true;
     console.error("robots.txt issues:");
-    robotsErrors.forEach((e) => console.error(`  - ${e}`));
+    robotsErrors.forEach((e) => console.error(` - ${e}`));
   }
 
   if (failed) {

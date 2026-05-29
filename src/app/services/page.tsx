@@ -48,7 +48,7 @@ export default function ServicesPage() {
       />
       <PageHero
         title="Forensic Expert Witness Services UK"
-        subtitle="From forensic loss quantification and fraud investigation to construction quantum, digital forensics, economic damages analysis, and expert determination — our multi-discipline network supports UK solicitors across every type of forensic dispute."
+        subtitle="From forensic loss quantification and fraud investigation to construction quantum, digital forensics, economic damages analysis, and expert determination, our multi-discipline network supports UK solicitors across every type of forensic dispute."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Services" },

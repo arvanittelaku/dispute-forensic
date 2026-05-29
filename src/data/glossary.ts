@@ -33,7 +33,7 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
   {
     term: "Chorzów Factory Standard",
     definition:
-      "The international law standard for calculating damages in state responsibility and investment treaty cases, requiring full reparation for injury — restitution, compensation, or satisfaction. Named after the Permanent Court of International Justice decision in Factory at Chorzów (1928), it governs quantum in ICSID and UNCITRAL investment arbitration.",
+      "The international law standard for calculating damages in state responsibility and investment treaty cases, requiring full reparation for injury, restitution, compensation, or satisfaction. Named after the Permanent Court of International Justice decision in Factory at Chorzów (1928), it governs quantum in ICSID and UNCITRAL investment arbitration.",
     href: "/disciplines/forensic-economics",
   },
   {
@@ -68,7 +68,7 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
   {
     term: "Digital Forensics",
     definition:
-      "The application of scientific investigation techniques to electronic data — computers, mobile devices, cloud storage, email servers, and network logs — to establish facts relevant to legal proceedings. Digital forensics experts produce CPR Part 35 compliant reports on data theft, cybercrime, IP misappropriation, and e-discovery disputes.",
+      "The application of scientific investigation techniques to electronic data, computers, mobile devices, cloud storage, email servers, and network logs, to establish facts relevant to legal proceedings. Digital forensics experts produce CPR Part 35 compliant reports on data theft, cybercrime, IP misappropriation, and e-discovery disputes.",
     href: "/disciplines/digital-forensics",
   },
   {
@@ -96,7 +96,7 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
     href: "/services#expert-determination-adr",
   },
   {
-    term: "FBCS (Fellow — British Computer Society)",
+    term: "FBCS (Fellow, British Computer Society)",
     definition:
       "Fellowship of the British Computer Society, the highest grade of BCS membership, recognising outstanding contribution to computing and IT. FBCS is a key credential for senior digital forensics expert witnesses in UK litigation and regulatory proceedings.",
     href: "/disciplines/digital-forensics",
@@ -104,13 +104,13 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
   {
     term: "Forensic Accounting",
     definition:
-      "The application of accounting, auditing, and financial investigation skills to legal disputes — quantifying financial losses, investigating fraud and financial irregularities, tracing assets, and valuing businesses in contentious contexts. Forensic accountants produce CPR Part 35 compliant expert reports for courts, tribunals, and arbitration.",
+      "The application of accounting, auditing, and financial investigation skills to legal disputes, quantifying financial losses, investigating fraud and financial irregularities, tracing assets, and valuing businesses in contentious contexts. Forensic accountants produce CPR Part 35 compliant expert reports for courts, tribunals, and arbitration.",
     href: "/disciplines/forensic-accounting",
   },
   {
     term: "Forensic Economics",
     definition:
-      "The application of economic theory and econometric methodology to legal disputes — quantifying economic damages in competition law, assessing market impacts in regulatory proceedings, and calculating investment treaty damages using counterfactual and DCF analysis.",
+      "The application of economic theory and econometric methodology to legal disputes, quantifying economic damages in competition law, assessing market impacts in regulatory proceedings, and calculating investment treaty damages using counterfactual and DCF analysis.",
     href: "/disciplines/forensic-economics",
   },
   {
@@ -128,7 +128,7 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
   {
     term: "Hot-Tubbing",
     definition:
-      "Informal term for concurrent evidence — a procedure where opposing experts give evidence simultaneously before the judge or tribunal, who directs the discussion. Hot-tubbing is increasingly ordered in TCC, CAT, and international arbitration proceedings to resolve technical expert disputes efficiently.",
+      "Informal term for concurrent evidence, a procedure where opposing experts give evidence simultaneously before the judge or tribunal, who directs the discussion. Hot-tubbing is increasingly ordered in TCC, CAT, and international arbitration proceedings to resolve technical expert disputes efficiently.",
     href: "/guides/hot-tubbing-concurrent-evidence-guide",
   },
   {
@@ -140,7 +140,7 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
   {
     term: "The Ikarian Reefer Duties",
     definition:
-      "The expert witness duties established in National Justice Compania Naviera SA v Prudential Assurance Co Ltd (The Ikarian Reefer) [1993] 2 Lloyd's Rep 68 — independence, objectivity, and the primacy of the duty to the court. These duties are now codified in CPR Part 35 and apply to all forensic expert witnesses.",
+      "The expert witness duties established in National Justice Compania Naviera SA v Prudential Assurance Co Ltd (The Ikarian Reefer) [1993] 2 Lloyd's Rep 68, independence, objectivity, and the primacy of the duty to the court. These duties are now codified in CPR Part 35 and apply to all forensic expert witnesses.",
     href: "/qualifications",
   },
   {
@@ -157,7 +157,7 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
   {
     term: "Metadata Analysis",
     definition:
-      "The examination of data about data — file creation dates, modification timestamps, author information, and access logs — to establish when documents were created, accessed, copied, or modified. Metadata analysis is critical in IP theft, data misappropriation, and document authenticity disputes.",
+      "The examination of data about data, file creation dates, modification timestamps, author information, and access logs, to establish when documents were created, accessed, copied, or modified. Metadata analysis is critical in IP theft, data misappropriation, and document authenticity disputes.",
     href: "/disciplines/digital-forensics",
   },
   {
@@ -181,7 +181,7 @@ export const GLOSSARY_TERMS: GlossaryTerm[] = [
   {
     term: "Quantum",
     definition:
-      "In construction and legal disputes, the financial value or amount of a claim — as distinct from liability (whether the claim is valid) or delay (when events occurred). Quantum experts (typically chartered quantity surveyors) value the monetary impact of construction claims.",
+      "In construction and legal disputes, the financial value or amount of a claim, as distinct from liability (whether the claim is valid) or delay (when events occurred). Quantum experts (typically chartered quantity surveyors) value the monetary impact of construction claims.",
     href: "/disciplines/forensic-engineering-quantum",
   },
   {

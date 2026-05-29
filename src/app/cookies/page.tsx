@@ -103,7 +103,7 @@ export default function CookiesPage() {
             We implement Google Consent Mode v2. Before you make a choice, all
             Google-related storage types default to <strong>denied</strong> except
             security storage. When you update preferences, consent is applied
-            immediately — analytics and advertising tags load or stop without a
+            immediately, analytics and advertising tags load or stop without a
             page reload.
           </p>
 

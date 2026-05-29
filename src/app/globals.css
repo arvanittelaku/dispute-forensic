@@ -141,7 +141,7 @@ svg {
   }
 }
 
-/* Cookie consent — fixed overlay only (no CLS) */
+/* Cookie consent, fixed overlay only (no CLS) */
 @keyframes dfCookieSlideUp {
   from {
     opacity: 0;

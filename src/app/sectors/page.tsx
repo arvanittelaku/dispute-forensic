@@ -27,7 +27,7 @@ export default function SectorsPage() {
       />
       <PageHero
         title="Forensic Expert Witnesses by Sector"
-        subtitle="Industry-specific disputes require forensic experts who understand sector economics, regulatory frameworks, and typical transaction structures — across construction, financial services, technology, energy, professional services, and life sciences."
+        subtitle="Industry-specific disputes require forensic experts who understand sector economics, regulatory frameworks, and typical transaction structures, across construction, financial services, technology, energy, professional services, and life sciences."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Sectors" },

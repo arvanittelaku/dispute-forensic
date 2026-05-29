@@ -32,7 +32,7 @@ export default function ContactPage() {
       />
       <PageHero
         title="Instruct a Forensic Expert Witness"
-        subtitle="Tell us your dispute type and forensic discipline needed — we match you with the right expert from our multi-discipline network. All enquiries are treated confidentially."
+        subtitle="Tell us your dispute type and forensic discipline needed, we match you with the right expert from our multi-discipline network. All enquiries are treated confidentially."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]}
       />
       <Section>
@@ -40,7 +40,7 @@ export default function ContactPage() {
           Whether you need a forensic accountant for loss quantification, a
           quantum expert for a construction claim, a digital forensics specialist
           for data theft evidence, or a forensic economist for competition
-          damages — submit your case details and we will match you with a
+          damages, submit your case details and we will match you with a
           qualified expert.{" "}
           <Link href="/how-to-instruct" className="text-accent underline">
             How to instruct guide →

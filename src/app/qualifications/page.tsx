@@ -40,19 +40,19 @@ export default function QualificationsPage() {
           <h2>Forensic Accounting Credentials</h2>
           <h3>ACA / FCA (ICAEW)</h3>
           <p>
-            Primary UK chartered accountancy qualification — essential baseline
+            Primary UK chartered accountancy qualification, essential baseline
             for forensic accounting expert witnesses providing evidence on
             financial matters, loss quantification, and fraud investigation.
           </p>
           <h3>ACCA / FCCA</h3>
           <p>
-            Association of Chartered Certified Accountants — widely recognised
+            Association of Chartered Certified Accountants, widely recognised
             in UK litigation and international arbitration for forensic
             accounting work.
           </p>
           <h3>CFE (Certified Fraud Examiner)</h3>
           <p>
-            Issued by ACFE — the primary additional credential for fraud
+            Issued by ACFE, the primary additional credential for fraud
             investigation and forensic accounting in civil and criminal
             proceedings.
           </p>
@@ -64,7 +64,7 @@ export default function QualificationsPage() {
           </p>
           <h3>CIMA / FCMA</h3>
           <p>
-            Chartered Institute of Management Accountants — relevant for
+            Chartered Institute of Management Accountants, relevant for
             management accounting disputes and financial modelling in loss
             quantification.
           </p>
@@ -78,7 +78,7 @@ export default function QualificationsPage() {
           <h2>Forensic Engineering & Quantum Credentials</h2>
           <h3>MRICS / FRICS</h3>
           <p>
-            Royal Institution of Chartered Surveyors — the core credential for
+            Royal Institution of Chartered Surveyors, the core credential for
             quantum experts valuing construction claims, loss and expense,
             variations, and final account disputes.
           </p>
@@ -95,7 +95,7 @@ export default function QualificationsPage() {
           </p>
           <h3>FCIArb / MCIArb</h3>
           <p>
-            Chartered Institute of Arbitrators fellowship — particularly relevant
+            Chartered Institute of Arbitrators fellowship, particularly relevant
             for experts appearing in adjudication and international construction
             arbitration.
           </p>
@@ -106,9 +106,9 @@ export default function QualificationsPage() {
           </p>
 
           <h2>Digital Forensics Credentials</h2>
-          <h3>FBCS (Fellow — British Computer Society)</h3>
+          <h3>FBCS (Fellow, British Computer Society)</h3>
           <p>
-            Fellowship of the British Computer Society — key credential for
+            Fellowship of the British Computer Society, key credential for
             senior digital forensics expert witnesses in UK litigation and
             regulatory proceedings.
           </p>

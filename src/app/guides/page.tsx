@@ -10,7 +10,7 @@ import { getAllGuides } from "@/data/guides";
 export const metadata = createMetadata({
   title: "Solicitor Guides: Forensic Expert Witnesses UK | All Disciplines",
   description:
-    "In-depth guides for UK solicitors on forensic expert witnesses — forensic accounting, construction quantum, digital forensics, competition economics, and more.",
+    "In-depth guides for UK solicitors on forensic expert witnesses, forensic accounting, construction quantum, digital forensics, competition economics, and more.",
   path: "/guides",
 });
 
@@ -27,7 +27,7 @@ export default function GuidesPage() {
       />
       <PageHero
         title="Guides: Forensic Expert Witnesses for UK Disputes"
-        subtitle="In-depth solicitor guides on instructing forensic expert witnesses across all disciplines — from forensic accounting and construction quantum to digital forensics, competition economics, hot-tubbing, and multi-discipline teams."
+        subtitle="In-depth solicitor guides on instructing forensic expert witnesses across all disciplines, from forensic accounting and construction quantum to digital forensics, competition economics, hot-tubbing, and multi-discipline teams."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Guides" },

@@ -27,7 +27,7 @@ export default function DisciplinesPage() {
       />
       <PageHero
         title="Forensic Expert Witness Disciplines"
-        subtitle="Four core forensic expert witness disciplines for UK litigation and international arbitration — each with distinct credentials, dispute contexts, and procedural requirements under CPR Part 35."
+        subtitle="Four core forensic expert witness disciplines for UK litigation and international arbitration, each with distinct credentials, dispute contexts, and procedural requirements under CPR Part 35."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Disciplines" },
